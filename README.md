@@ -11,5 +11,8 @@
 <li>（MainActivity.java）代码第24行调用了WeatherService的解析XML 文件方法,返回的是保存有天气信息的集合，然后把集合中的数据按照三个城市的信息分别放在不同的Map集合中，
   再把Map集合都存人 List集合中。当我们点击按钮时，会触发getMap(int number, int iconNumber)方法，三个不同的按钮会传进不同的int值用于取出 List中相对应的Map集合。
   最后从Map集合中把城市信息取出来分条展示在界面上。</li>
+  <br>
+  <b>演示效果</b>
+![image](https://github.com/yosoroQ/weather-forecast_Android-app/blob/main/%E5%A4%A9%E6%B0%94%E9%A2%84%E6%8A%A5.png)
 
 </ul>
